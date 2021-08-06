@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Extension Name</key>
-	<string>Sourcegraph</string>
+	<string>Jira</string>
 	<key>Extension Identifier</key>
-	<string>com.sayayuka.popclip.extension.sourcegraph</string>
+	<string>com.sayayuka.popclip.extension.jira</string>
 	<key>Extension Description</key>
-	<string>Sourcegraph</string>
+	<string>Jira</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>https://code.saf-service.sap.corp/search?q={popclip text}&amp;patternType=literal</string>
+			<string>https://jira.successfactors.com/browse/{popclip text}</string>
 			<key>Title</key>
-			<string>Sourcegraph</string>
+			<string>Jira</string>
 		</dict>
 	</array>
 </dict>
